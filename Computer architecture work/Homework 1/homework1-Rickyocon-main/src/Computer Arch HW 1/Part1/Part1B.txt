@@ -1,0 +1,41 @@
+Ricky O'Connor
+Computer Architecture
+Assignment 1 (Part1B)
+2/28/2022
+
+
+Here a the basic algorithum for converting any base number to a decimal number
+
+
+Steps
+-----
+
+Step 1 − Determine the column and positional values of each digit (this depends on the position of the digit and the base of the number system).
+
+Step 2 − Multiply the obtained column values by the base of the number you are converting to its positional value
+
+Step 3 − Sum the products calculated in Step 2. The total is the equivalent value in decimal.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Example for converting (111)2 to decimal using the described algorithum above
+
+Step 1 − Determine the column and positional values of each digit (this depends on the position of the digit and the base of the number system).
+
+obtained column values = 1,1,1
+obtained positional values = 2,1,0
+1,1,1
+  ↓
+2,1,0 
+
+since we are converting a binary number to decimal we will be multiplying each column value by 2 to the positional value
+
+Step 2 − Multiply the obtained column values by the base of the number you are converting to its positional value
+
+(1*2^2) + (1*2^1) + (1*2^0) = 4 + 3 + 0
+
+Step 3 − Sum the products calculated in Step 2. The total is the equivalent value in decimal.
+4 + 3 + 0 = 7
+
+so the final answer for converting (111)2 to decimal using the described algorithum above is 7
+

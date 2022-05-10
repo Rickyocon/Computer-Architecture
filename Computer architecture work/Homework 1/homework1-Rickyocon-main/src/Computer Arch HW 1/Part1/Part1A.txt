@@ -1,0 +1,57 @@
+Ricky O'Connor
+Computer Architecture
+Assignment 1 (Part1A)
+2/28/2022
+
+
+Here is a basic algorithum for converting a decimal number to a different base 
+
+
+Steps
+-----
+
+Step 1 − Divide the decimal number to be converted by the value of the new base.
+
+Step 2 − Get the remainder from Step 1 as the rightmost digit (least significant digit) of new base number.
+
+Step 3 − Divide the quotient of the previous divide by the new base.
+
+Step 4 − Record the remainder from Step 3 as the next digit (to the left) of the new base number.
+
+step 5 - Repeat Steps 3 and 4, getting remainders from right to left, until the quotient becomes zero in Step 3
+
+*As mentioned in Steps 2 and 4, the remainders have to be arranged in the reverse order so that the first remainder 
+becomes the Least Significant Digit (LSD) and the last remainder becomes the Most Significant Digit (MSD).*
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+Example for converting (24)10 to binary using the described algorithum above
+
+step 1: Divide the decimal number to be converted by the value of the new base-
+
+So in this case we are converting (24)10 to binary which is base 2. So we divide 24 by 2
+
+Step 2: Divide the decimal number to be converted by the value of the new base and Get the quotient and remainder
+
+24 / 2 = 12 with a remainder of 0
+
+Step 3 − Divide the quotient of the previous divide by the new base and repeat step 2
+
+24 / 2 = 12 with a remainder of 0
+12 / 2 = 6 with a remainder of 0
+
+Step 4 − Record the remainder from Step 3 as the next digit (to the left) of the new base number. 
+
+so for our decimal number in binary is 00
+
+step 5 - Repeat Steps 3 and 4, getting remainders from right to left, until the quotient becomes zero in Step 3
+
+24 / 2 = 12 with a remainder of 0
+12 / 2 = 6 with a remainder of 0
+6 / 2 = 3 with a remainder of 0
+3 / 2 = 1 with a remainder of 1
+1 / 2 = 0 with a remainder of 1
+
+so our final answer for converting (24)10 to binary using the described algorithum above would be: 11000
+
+

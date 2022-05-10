@@ -1,0 +1,8 @@
+Ricky O'Connor 
+part1 analysis
+
+I struggled with implementing the standard multiplication algorithm and was unable to get a final result, however, I was able to implement Booth's algorithm 
+    and conduct time analysis on both my algorithms. Even though I was unable to get a product for the standard multiplication algorithm, I was able to perform 
+    binary addition and attempt the multiplication. on average my completed Booth's algorithm averaged a run time of 0.9 seconds and my unfinished standard 
+    multiplication algorithm averaged a run time of 0.25 seconds. Booth's algorithm would have had a faster average run time if I had completed the standard 
+    multiplication algorithm as Booth's algorithm in theory is a much faster method than standard multiplication.

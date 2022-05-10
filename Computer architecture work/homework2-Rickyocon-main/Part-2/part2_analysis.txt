@@ -1,0 +1,5 @@
+# part2_analysis.py
+
+I Struggeled to get the Binary to float Algorithm to work and was only able to produce one instance for one format (Binsry32). so I was unable to make a 
+  proper time analysis for the binary to float Algorithm. However I was able to preform the float to binary (IEE 754 format) for all formats and was able
+  preform a time analysis on the Algorithm. The float to binary (IEE 754 format) took on average 0.33 seconds
